@@ -21,10 +21,10 @@ node {
         //
         echo "test complete"
     }
-    stage('Deploy') {
+    //stage('Deploy') {
         //
-        "echo "deploy completed
-    }
+       // "echo "deploy completed
+   // }
 }
 
 
