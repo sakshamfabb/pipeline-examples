@@ -1,4 +1,4 @@
-node {
+/*node {
 	stage 'Checkout'
 		checkout scm
 
@@ -10,3 +10,22 @@ node {
 		archive 'ProjectName/bin/Release/**'
 
 }
+*/
+        // scripted pipeline syntax
+node {
+    stage('Build') {
+        //
+        echo "build complete"
+    }
+    stage('Test') {
+        //
+        echo "test complete"
+    }
+    stage('Deploy') {
+        //
+        "echo "deploy completed
+    }
+}
+
+
+
