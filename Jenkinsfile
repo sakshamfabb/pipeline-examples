@@ -13,11 +13,11 @@
 */
         // scripted pipeline syntax
 node {
-    stage('Build') {
+    stage('Fun') {
         //
         echo "build complete"
     }
-    stage('Test') {
+    stage('Beer') {
         //
         echo "test complete"
     }
